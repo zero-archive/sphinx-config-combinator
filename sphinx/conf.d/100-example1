@@ -1,0 +1,24 @@
+source EXAPLE_1
+{
+    type = mysql
+
+    sql_host = localhost
+    sql_user = user
+    sql_pass = password
+    sql_db = example1
+    sql_port = 3306
+
+    sql_query = \
+        SELECT * \
+        FROM exaple_1 \
+}
+
+index EXAPLE_1_INDEX
+{
+    source = EXAPLE_1
+
+    path = /usr/local/sphinx/var/data/exaple_1
+
+    morphology = stem_enru
+    charset_type = utf-8
+}

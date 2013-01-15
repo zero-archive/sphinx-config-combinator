@@ -1,0 +1,13 @@
+indexer
+{
+   mem_limit = 32M
+}
+
+searchd
+{
+    listen = 9313
+
+    log = /usr/local/sphinx/var/log/searchd.log
+    query_log = /usr/local/sphinx/var/log/query.log
+    pid_file = /usr/local/sphinx/var/log/searchd.pid
+}
