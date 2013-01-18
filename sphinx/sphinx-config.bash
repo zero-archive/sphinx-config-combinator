@@ -1,6 +1,6 @@
 #!/bin/bash
 
-WORKDIR=`pwd`
+WORKDIR=`dirname $0`
 CONFDIR="$WORKDIR/conf.d/"
 
 LINE=$(seq -s "#" 70 | sed 's/[0-9]//g')
