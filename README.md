@@ -1,6 +1,6 @@
 # Sphinx Config Combinator
 
-Script that combine multiple config files for Sphinx Search engine
+Script that combine multiple config files into one for [Sphinx Search](http://sphinxsearch.com) engine
 
 ## Install
 
