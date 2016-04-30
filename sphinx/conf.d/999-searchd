@@ -6,8 +6,7 @@ indexer
 searchd
 {
     listen = 9313
-
-    log = /usr/local/sphinx/var/log/searchd.log
-    query_log = /usr/local/sphinx/var/log/query.log
-    pid_file = /usr/local/sphinx/var/log/searchd.pid
+    log = /var/log/searchd.log
+    query_log = /var/log/query.log
+    pid_file = /var/log/searchd.pid
 }

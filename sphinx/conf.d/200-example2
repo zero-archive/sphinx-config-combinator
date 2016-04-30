@@ -1,24 +1,18 @@
-source EXAPLE_2
+source EXAMPLE2
 {
     type = mysql
-
     sql_host = localhost
     sql_user = user
     sql_pass = password
     sql_db = example2
     sql_port = 3306
-
-    sql_query = \
-        SELECT * \
-        FROM exaple_2 \
+    sql_query = SELECT * FROM example2
 }
 
-index EXAPLE_2_INDEX
+index EXAMPLE2_INDEX
 {
-    source = EXAPLE_2
-
-    path = /usr/local/sphinx/var/data/exaple_2
-
+    source = EXAMPLE2
+    path = /var/data/example2
     morphology = stem_enru
     charset_type = utf-8
 }
